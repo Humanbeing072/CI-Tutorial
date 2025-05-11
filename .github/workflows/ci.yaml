@@ -32,16 +32,16 @@ jobs:
 
     - name: Run Pylint
       run: |
-        pylint text.py
+        pylint _test.py
 
     - name: Run Flake8
       run: |
-        flake8 text.py
+        flake8 _test.py
 
     - name: Check formatting with Black
       run: |
-        black --check text.py
+        black --check _test.py
 
     - name: Run Mypy (Optional for type checking)
       run: |
-        mypy text.py
+        mypy _test.py
