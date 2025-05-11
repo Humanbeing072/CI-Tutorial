@@ -1,5 +1,6 @@
 """
-This module contains unit tests for power functions: square, cube, and fifth power.
+This module contains unit tests for power functions:
+square, cube, and fifth power.
 """
 
 import pytest
